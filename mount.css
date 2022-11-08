@@ -1,45 +1,53 @@
 body{
-    background-color: rgb(89, 121, 184);
     text-align: center;
+    margin: 0;
+}
+ 
+.top-container{
+   background-color: #7FBCD2;
    position: relative;
+   padding-top: 100px;
    
+}
 
+.cloud1{ 
+  position: absolute;
+  margin-left: 150px;
 }
-.sun1{
-    height: 200px;
-}
-.cloud1{
-    height: 300px;
-    width: 300px;
-    position: absolute;
-    top: 100px;
-    left: 1000px;
-}
+
 h1{
-    position: absolute;
-    top: 170px;
-    left: 520px;
-    font-size: 70px;
-    font-family: Goudy Old Style,Garamond,Big Caslon,Times New Roman,serif; 
+    margin-top: 0;
 }
-p{
-    position: absolute;
-    left: 670px;
-    top: 280px;
-    font-size: 25px;
+
+hr{
+    height: 3px;
+    background-color: black;
+}
+.pro{
     text-decoration: underline;
-    font-family: serif;
 }
+
 .cloud2{
     position: absolute;
-    height: 300px;
-    margin-top: 100px;
-    left: 150px;
-    top: 150px;
+    left: 300px;
+    bottom: 300px;
 }
-.mount1{
-    position: absolute;
-    height: 600px;
-    margin-top: 300px;
-    left: 500px;
+
+.mount1{   
+}
+
+.middle-container{
+    background-color: #7FBCD2;
+}
+
+.bottom-container{
+    background-color: #F94892;
+}
+
+.cooking{
+    border-radius: 10%;
+}
+.photo{
+    height: 200px;
+    border-radius: 50%;
 }
