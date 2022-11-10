@@ -4,7 +4,7 @@ body{
 }
  
 .top-container{
-   background-color: #7FBCD2;
+   background-color: #2C3333;
    position: relative;
    padding-top: 100px;
    
@@ -12,42 +12,155 @@ body{
 
 .cloud1{ 
   position: absolute;
-  margin-left: 150px;
+  margin-left: 300px;
 }
 
 h1{
-    margin-top: 0;
+    color: aquamarine;
+    font-size: 625%;
+    margin-top: 50px;
+    font-family: "Brush Script MT", cursive;
 }
 
 hr{
-    height: 3px;
-    background-color: black;
+   
+    border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+    border-color: black;
+    border-width: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
-.pro{
+
+.hello{
+    color: #66bfbf;
+    font-size: 3.75rem;
+    font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+}
+
+.heading1{
+    background-color: cadetblue;
+    color: #9325b2;;
+    font-size: 2.5rem;
+    height: 70px;
+    
+}
+
+.head1{
+   
+    color: #11999E;
+    font-size: 2.5rem;
     text-decoration: underline;
+}
+
+.head2{
+    color: #11999E;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+.head3{
+    color: #11999E;
+    font-size: 2.5rem;
+    text-decoration: underline;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+}
+.para1{
+    color: aquamarine;
+    font-size: 1.875rem;
+    margin-top: -50px;   
+}
+
+.para2{
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.para3{
+    color: whitesmoke;
+    font-size: 30px;
+    padding: 50px;
+}
+
+.para4{
+    padding: 120px;
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.para5{
+    font-size: 200%;
 }
 
 .cloud2{
     position: absolute;
-    left: 300px;
+    left: 250px;
     bottom: 300px;
 }
 
-.mount1{   
+.pro{
+    text-decoration: underline;
 }
 
 .middle-container{
-    background-color: #7FBCD2;
+    background-color: #395B64;
 }
 
 .bottom-container{
-    background-color: #F94892;
+    background-color: #2C3333;
+    text-align: center;
+    place-items: center;
+    padding-bottom: 50px;
 }
 
 .cooking{
     border-radius: 10%;
+    height: 300px;
+    padding-left:30px;
 }
+
 .photo{
     height: 200px;
-    border-radius: 50%;
+    border-radius: 100%;
+    padding-top: 20px;
+}
+
+.gif{
+    height: 200px;
+    padding-right: 30px;
+    border-radius: 10px;
+}
+
+.btn{
+    background-color: aqua;
+    font-size: 1.875rem;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin: 100px auto 100px auto;
+    color: rgb(4, 7, 12);
+}
+
+.btn:hover{
+    background-color: rgb(172, 171, 171);
+}
+
+.footer-link{
+        padding: 20px;
+        font-size: 1.875rem;
+        color: aliceblue;
+}
+
+.footer-link:hover{
+    color: dodgerblue;
+}
+
+div{
+    display: block;
+}
+.copy-right{
+    font-size: 1.875rem;
+    padding-top: 250px;
+    padding-bottom: 0;
 }
