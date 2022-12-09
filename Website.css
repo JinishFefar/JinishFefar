@@ -1,0 +1,183 @@
+/* for body
+*/
+body{
+    text-align: center;
+    margin: 0;
+}
+
+/* for Top container */
+.top-container{
+   background-color: #2C3333;
+   position: relative;
+   padding-top: 100px;
+   
+}
+
+.cloud1{ 
+  position: absolute;
+  margin-left: 300px;
+}
+
+h1{
+    color: aquamarine;
+    font-size: 625%;
+    margin-top: 50px;
+    font-family: "Brush Script MT", cursive;
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.photo{
+    height: 200px;
+    border-radius: 100%;
+    padding-top: 20px;
+}
+
+.cloud2{
+    position: absolute;
+    left: 250px;
+    bottom: 300px;
+}
+
+/* HR properties */
+hr{
+   
+    border-style: none;
+    border-top-style: dotted;
+    width: 5%;
+    border-color: rgb(60, 80, 136);
+    border-width: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+/* for middle container */
+.middle-container{
+    background-color: #1a1616;
+    padding: 50px;
+}
+
+.hello{
+    color: #66bfbf;
+    font-size: 3.75rem;
+    font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+}
+
+.gif{
+    width: 100%;
+    margin-right: 30px;
+    border-radius: 10px;
+}
+
+.cooking{
+    border-radius: 10%;
+    height: 300px;
+    padding-left:30px;
+}
+
+.btn{
+    background-color: #A3C7D6;
+    font-size: 1.875rem;
+    border-radius: 10px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    padding: 100px auto 100px auto;
+    color: rgb(55, 89, 149);
+}
+
+/* for all headings */
+.heading1{
+    background-color: cadetblue;
+    color: #9325b2;;
+    font-size: 2.5rem;
+    height: 70px;
+    
+}
+
+.head1{
+    padding: 50px;
+    color: #11999E;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+.head2{
+    
+    color: #11999E;
+    font-size: 2.5rem;
+    text-decoration: underline;
+}
+
+.head3{
+    color: #11999E;
+    font-size: 2.5rem;
+    text-decoration: underline;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif; 
+}
+
+/* for all paragraphs */
+.para1{
+    color: aquamarine;
+    font-size: 1.875rem;
+    margin-top: -50px;   
+}
+
+.para2{
+    color: whitesmoke;
+    font-size: 30px;
+}
+
+.para3{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 1.875rem;
+    padding: 50px;
+    line-height: 2;
+}
+
+.para4{
+    text-align: center;
+    font-size: 30px;
+    line-height: 2;
+    color: aliceblue;
+    padding: 20px;
+}
+
+.para5{
+    color: #11999E;
+    font-size: 200%;
+    width: 90%;
+    padding-left: 70px;
+    line-height: 2;
+}
+
+/* for bottom container */
+
+.bottom-container{
+   background-color: rgb(41, 65, 110);
+   padding: 50px 0 20px;
+}
+
+.footer-link{
+    color: rgb(3, 3, 3);
+    font-family: 'Montserrat',sans-serif;
+    margin: 10px 20px;
+    text-decoration: none;
+}
+
+.footer-link:hover{
+    color: aliceblue;
+    zoom: 2;
+}
+
+.btn:hover{
+    color: rgb(19, 7, 7);
+}
+
+.copy-right{
+    color: aliceblue;
+    font-size: 0.75rem;
+    padding: 20px 0px;
+}
